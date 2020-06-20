@@ -41,6 +41,9 @@ import UIKit
     @IBInspectable var iPadPro12_9: CGFloat = 0.0 {
         didSet { deviceConstant(.i12_9Inch,value:iPadPro12_9) }
     }
+    @IBInspectable var iPad7: CGFloat = 0.0 {
+        didSet { deviceConstant(.i10_2Inch,value:iPad7) }
+    }
     // Helpers
     open func deviceConstant(_ device:UIDeviceSize,value:CGFloat) {
         if deviceSize == device {

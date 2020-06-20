@@ -14,6 +14,7 @@ enum UIDeviceSize  {
     case i6_5Inch
     case i7_9Inch
     case i9_7Inch
+    case i10_2Inch
     case i10_5Inch
     case i11_Inch
     case i12_9Inch
@@ -52,6 +53,8 @@ let deviceSize : UIDeviceSize = {
         default:
             return .i9_7Inch
         }
+    case 1080:
+        return .i10_2Inch
     case 1112:
         return .i10_5Inch
     case 1194:
