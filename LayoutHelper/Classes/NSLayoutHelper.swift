@@ -41,6 +41,10 @@ import UIKit
     @IBInspectable var iPadPro12_9: CGFloat = 0.0 {
         didSet { deviceConstant(.i12_9Inch,value:iPadPro12_9) }
     }
+	
+	@IBInspectable var iPadPro12_9_3_4: CGFloat = 0.0 {
+		didSet { deviceConstant(.i12_9Inch_3_4,value:iPadPro12_9_3_4) }
+	}
     @IBInspectable var iPad7: CGFloat = 0.0 {
         didSet { deviceConstant(.i10_2Inch,value:iPad7) }
     }
